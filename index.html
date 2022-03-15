@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website Design Tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Box Icons Link -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+    <nav class="navbar">
+        <a href="#" class="nav-branding"><img src="images/logo.png" alt="site-logo"></a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Works</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div id="particles-js"></div>
+
+    <div class="content">
+        <img class="tilt" src="images/hero.jpg" alt="">
+        <h3> Salam <span>Sheikh</span> </h3>
+        <p> I am a <span class="typing-text"> Front End Web Developer </span> </p>
+        <a href="#about" class="btn">About me</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> about <span>me</span> </h1>
+
+    <div class="row">
+        
+        <div class="content">
+            <h3> My name is <span> SALAM SHEIKH </span> </h3>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis, dolorem omnis dolorum non provident distinctio inventore culpa in, nam eligendi quos modi vel aliquid blanditiis velit natus voluptatem deleniti.</p>
+            <div class="box-container">
+                <div class="box">
+                    <p> <span> age: </span> 20 </p>
+                    <p> <span> gender: </span> Male </p>
+                    <p> <span> experience  : </span> 2 years </p>
+                    <p> <span> freelance : </span> Available </p>
+                </div>
+                <div class="box">
+                    <p> <span> language : </span>English/ Hindi/Bangla/ Urdu/ Spanish </p>
+                    <p> <span> phone : </span> +8801580732361 </p>
+                    <p> <span> email : </span> dev.salamsheikh@gmail.com </p>
+                    <p> <span> address : </span> 5800, Rajshahi, Bangladesh </p>
+                </div>
+            </div>
+            <a href="#" class="btn">download CV</a>
+        </div>
+        
+                <div class="image">
+                    <img class="tilt" src="images/about.png" alt="">
+                </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> <span> my </span> services </h1>
+
+    <div class="box-container">
+
+        <div class="box tilt">
+            <i class="fas fa-code"></i>
+            <h3>Front End Web Development</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quidem.</p>
+        </div>
+
+        <div class="box tilt">
+            <i class="fas fa-envelope"></i>
+            <h3> Wordpress Theme Development</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quidem.</p>
+        </div>
+
+        <div class="box tilt">
+            <i class="fab fa-wordpress"></i>
+            <h3>Wordpress Expert</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quidem.</p>
+        </div>
+
+        <div class="box tilt">
+            <i class='bx bxs-devices' ></i>
+            <h3>Responsive Designs</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quidem.</p>
+        </div>
+
+        <div class="box tilt">
+            <i class='bx bx-credit-card'></i>
+            <h3>Web Design</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quidem.</p>
+        </div>
+
+        <div class="box tilt">
+            <i class='bx bxs-megaphone'></i>
+            <h3>Digital Marketing</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quidem.</p>
+        </div>
+
+        <div class="box tilt">
+            <i class='bx bx-chalkboard'></i>
+            <h3>Web App Development</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quidem.</p>
+        </div>
+
+        <div class="box tilt">
+            <i class='bx bx-mobile-alt' ></i>
+            <h3>UI/UX Designer</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quidem.</p>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> <span> my </span> portfolio </h1>
+
+        <div class="work_filters">
+            <span class="work_item active_work" data-filter="all">All</span>
+            <span class="work_item" data-filter=".web">Web</span>
+            <span class="work_item" data-filter=".mobile">Mobile</span>
+            <span class="work_item" data-filter=".design">Design</span>
+        </div>
+    <div class="box-container">
+
+        <div class="box tilt">
+            <img src="images/DhakaUniversityMockup.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">Visit Project</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/academist.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">Visit Project</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/animated.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">Visit Project</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/ansel.jpg">
+            <div class="content">
+                <a href="#" class="btn">Visit Project</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/christmasmockup.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">Visit Project</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/cryto.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">Visit Project</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/Rexlist-mockup.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">Visit Project</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/ecommerce.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">Visit Project</a>
+            </div>
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span> my </span> blogs </h1>
+
+    <div class="box-container">
+        
+        <div class="box tilt">
+            <img src="images/blog-img-1.jpg" alt="">
+            <h3> blogs title goes here </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/blog-img-2.jpg" alt="">
+            <h3> blogs title goes here </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/blog-img-3.jpg" alt="">
+            <h3> blogs title goes here </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span> me </span> </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img class="tilt" src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <input type="text" placeholder="subject" class="box">
+
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" class="btn" value="send message">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- footer section  -->
+
+<div class="footer"> created by <span> mr. web designer </span> | all rights reserved! </div>
+
+<!-- javascript part  -->
+<script src="js/main.js"></script>
+
+<!-- typed.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+<!-- particles.js links  -->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+
+<!-- vanilla-tilt.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+<script>
+
+var typed = new Typed('.typing-text', {
+    strings : ['graphic designer',  'Front End Web Developer', 'Theme Developer', 'Web Designer'],
+    loop : true,
+    typeSpeed : 150
+});
+
+VanillaTilt.init(document.querySelectorAll('.tilt'),{
+    max:25
+});
+
+</script>
+
+</body>
+</html>
