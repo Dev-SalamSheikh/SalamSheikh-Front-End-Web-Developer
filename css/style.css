@@ -479,7 +479,7 @@ a{
 
     .nav-menu{
         position: absolute;
-        right: -100%;
+        left: -100%;
         top: 0;
         width: 100%;
         gap: 0;
@@ -496,7 +496,7 @@ a{
     }
 
     .nav-menu.active{
-        right: 0;
+        left: 0;
         padding: 70px 0 0 0;
     }
 
