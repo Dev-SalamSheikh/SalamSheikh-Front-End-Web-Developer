@@ -492,6 +492,10 @@ svg{
 }
 
 
+.contact{
+    background-color: var(--container-color);
+}
+
 .contact .row{
     display:flex;
     align-items: center;
@@ -509,10 +513,9 @@ svg{
 
 .contact .row form{
     flex:1 1 40rem;
-    padding:1rem 2rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:2rem 4rem;
     border-radius: .5rem;
-    background:#fff;
+    background: var(--container-color);
 }
 
 .contact .row form .inputBox{
@@ -527,17 +530,18 @@ svg{
     width:100%;
     border-radius: .5rem;
     font-size: 1.7rem;
-    color:#333;
+    color:#fff;
     padding:1rem;
     margin:1rem 0;
-    border:.1rem solid rgba(0,0,0,.1);
+    border:.1rem solid goldenrod;
     text-transform: none;
+    background-color: var(--container-color);
 }
 
 .contact .row form .inputBox input:focus,
 .contact .row form .box:focus,
 .contact .row form textarea:focus{
-    border-color: var(--green);
+    border-color: goldenrod;
 }
 
 .contact .row form .inputBox input{
