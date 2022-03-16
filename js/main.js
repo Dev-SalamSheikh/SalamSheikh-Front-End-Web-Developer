@@ -1,15 +1,3 @@
-    // Mixitup Effect Portfolio
-
-    let mixerWork = mixitup('.box_container', {
-        selectors: {
-            target: '.box_single'
-        },
-        animation: {
-            duration: 500
-        }
-    });
-
-
 const burger = document.querySelector(".hamburger");
 const menu = document.querySelector(".nav-menu")
 

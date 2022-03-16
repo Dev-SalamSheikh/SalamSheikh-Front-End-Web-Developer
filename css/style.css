@@ -321,33 +321,6 @@ a{
     left:0;
 }
 
-.work_filters{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    margin-bottom: 30px;
-}
-
-.work_filters span{
-    margin: 0 10px;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: transparent;
-    border: 1px solid goldenrod;
-    color: #ddd;
-    padding: 7px 15px;
-    transition: all .3s ease-in-out;
-}
-
-.work_filters span:hover{
-    background-color: goldenrod;
-    color: #333;
-    letter-spacing: .2rem;
-    border-color: #ddd;
-}
-
 .portfolio .active {
     background-color: goldenrod;
     color: #333;
