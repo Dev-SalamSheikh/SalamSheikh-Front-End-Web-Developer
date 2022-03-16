@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap');
 
 :root{
     --green:#27ae60;
@@ -10,6 +11,7 @@
 
 *{
     font-family: 'Nunito', sans-serif;
+    /* font-family: 'Fredoka', sans-serif; */
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -277,13 +279,13 @@ a{
     line-height: 2;
 }
 
-.portfolio .box-container{
+.portfolio .box_container{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
 }
 
-.portfolio .box-container .box{
+.portfolio .box_container .box_single{
     flex:1 1 30rem;
     border-radius: .5rem;
     border:1rem solid goldenrod;
@@ -298,13 +300,13 @@ a{
     color: #333;
 }
 
-.portfolio .box-container .box img{
+.portfolio .box_container .box_single img{
     height: 100%;
     width:100%;
     object-fit: cover;
 }
 
-.portfolio .box-container .box .content{
+.portfolio .box_container .box_single .content{
     height: 100%;
     width:100%;
     position: absolute;
@@ -315,42 +317,207 @@ a{
     justify-content: center;
 }
 
-.portfolio .box-container .box:hover .content{
+.portfolio .box_container .box_single:hover .content{
     left:0;
 }
 
-.blogs .box-container{
+.work_filters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.work_filters span{
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid goldenrod;
+    color: #ddd;
+    padding: 7px 15px;
+    transition: all .3s ease-in-out;
+}
+
+.work_filters span:hover{
+    background-color: goldenrod;
+    color: #333;
+    letter-spacing: .2rem;
+    border-color: #ddd;
+}
+
+.portfolio .active {
+    background-color: goldenrod;
+    color: #333;
+    border-color: #ddd;
+}
+
+.counter .box-container{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
 }
 
-.blogs .box-container .box{
-    flex: 1 1 30rem;
-    border-radius: .5rem;
-    background:#fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    padding:2rem;
+.counter .box-container .box-parent{
+    flex: 1 1 20rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.blogs .box-container .box img{
-    height:20rem;
-    width:100%;
-    border-radius: .5rem;
-    object-fit: cover;
+.counter .box-container .box{
+    flex: 1 1 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.blogs .box-container .box h3{
-    color:var(--green);
-    font-size: 2.5rem;
-    padding:.5rem 0;
+.counter .box-container h5{
+    font-size: 20px;
+    color: #ddd;
+    font-weight: 600;
 }
 
-.blogs .box-container .box p{
-    color:#666;
-    font-size: 1.5rem;
-    padding:.5rem 0;
+.container_two{
+    margin-top: 30px;
 }
+
+/* For ProgressBar */
+
+.skill{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    background: #fff;
+}
+
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    background: var(--container-color);
+    justify-content: center;
+    align-items: center;
+}
+
+#number,
+#numberTwo,
+#numberThree,
+#numberfour,
+#numberfive,
+#numbersix{
+    font-weight: 600;
+    color: #ddd;
+    font-size: 17px;
+}
+
+.first circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+
+.second circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim2 2s linear forwards;
+}
+
+.third circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim3 2s linear forwards;
+}
+
+.fourth circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim4 2s linear forwards;
+}
+
+.fifth circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim5 2s linear forwards;
+}
+
+.sixth circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim6 2s linear forwards;
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 70.8;
+    }
+}
+
+@keyframes anim2{
+    100%{
+        stroke-dashoffset: 94.4;
+    }
+}
+
+@keyframes anim3{
+    100%{
+        stroke-dashoffset: 236;
+    }
+}
+
+@keyframes anim4{
+    100%{
+        stroke-dashoffset: 94.4;
+    }
+}
+
+@keyframes anim5{
+    100%{
+        stroke-dashoffset: 283.2;
+    }
+}
+
+@keyframes anim6{
+    100%{
+        stroke-dashoffset: 424.8;
+    }
+}
+
 
 .contact .row{
     display:flex;
