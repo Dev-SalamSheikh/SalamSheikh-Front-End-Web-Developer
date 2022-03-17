@@ -123,10 +123,10 @@ const sr = ScrollReveal({
 
 sr.reveal('.home')
 sr.reveal('.content', {delay: 400, origin: "left"});
-sr.reveal('.image', {delay: 400, origin: 'right'});
+sr.reveal('.image', {delay: 400, origin: 'top'});
 sr.reveal('.works', {delay: 400, origin: 'bottom'});
-sr.reveal('.services', {delay: 400, origin: 'top'});
+sr.reveal('.services', {delay: 400, origin: 'left'});
 sr.reveal('.skills', {delay: 400, origin: 'bottom'});
-sr.reveal('.testimonial', {delay: 400, origin: 'right'});
+sr.reveal('.testimonial', {delay: 400, origin: 'top'});
 sr.reveal('form', {delay: 400, origin: 'left'});
 sr.reveal('.footer-content', {delay: 400, origin: 'top'});
