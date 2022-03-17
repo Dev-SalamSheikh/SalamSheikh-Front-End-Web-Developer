@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>
-      Salam Sheikh - Junior Web Developer
-    </title>
+    <title>Salam Sheikh - Junior Web Developer</title>
 
     <!-- font awesome cdn link  -->
     <link
@@ -22,15 +20,16 @@
     />
 
     <!-- Favicon Linkup -->
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+
+    <!-- Swipper Css Lnkup -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
     <!-- Custom Css File Link  -->
     <link rel="stylesheet" href="css/style.css" />
-    
-</head>
+  </head>
   <body>
     <!-- header section starts  -->
-
     <header>
       <nav class="navbar">
         <a href="#" class="nav-branding"
@@ -38,16 +37,22 @@
         /></a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
+            <a href="#home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Pricing</a>
+            <a href="#about" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Projects</a>
+            <a href="#services" class="nav-link">Services</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Works</a>
+            <a href="#works" class="nav-link">Works</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -60,7 +65,7 @@
 
     <!-- header section ends -->
 
-    <!-- home section starts  -->
+    <!-- Home Section Starts  -->
 
     <section class="home" id="home">
       <div id="particles-js"></div>
@@ -73,9 +78,9 @@
       </div>
     </section>
 
-    <!-- home section ends -->
+    <!-- Home Section End -->
 
-    <!-- about section starts  -->
+    <!-- About Section Start  -->
 
     <section class="about" id="about">
       <h1 class="heading">about <span>me</span></h1>
@@ -114,11 +119,11 @@
       </div>
     </section>
 
-    <!-- about section ends -->
+    <!-- About Section End -->
 
-    <!-- portfolio section starts  -->
+    <!-- Recent Works Section Start  -->
 
-    <section class="portfolio" id="portfolio">
+    <section class="works" id="works">
       <h1 class="heading"><span> Recent </span> Works</h1>
 
       <div class="box_container">
@@ -204,9 +209,9 @@
       </div>
     </section>
 
-    <!-- portfolio section ends -->
+    <!-- Recent Works Section End -->
 
-    <!-- services section starts  -->
+    <!-- Services Section Start  -->
 
     <section class="services" id="services">
       <h1 class="heading"><span> my </span> services</h1>
@@ -286,193 +291,254 @@
       </div>
     </section>
 
-    <!-- services section ends -->
+    <!-- Services Section End -->
 
-    <!-- blogs section starts  -->
+    <!-- Skill Section Start  -->
 
-    <section class="counter" id="counter">
+    <section class="skills" id="skills">
       <h1 class="heading">Skills</h1>
 
       <div class="box-container">
-
         <div class="box-parent tilt">
-            <h5>HTML</h5>
-            <div class="box">
-                <div class="skill">
-                    <div class="outer">
-                        <div class="inner">
-                            <div id="number">
-                                90%
-                            </div>
-                        </div>
-                    </div>
-        
-                  <div class="first">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-                        <defs>
-                           <linearGradient id="GradientColor">
-                              <stop offset="0%" stop-color="#daa520" />
-                              <stop offset="100%" stop-color="#daa520" />
-                           </linearGradient>
-                        </defs>
-                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
-                  </svg> 
-                   </div>
+          <h5>HTML</h5>
+          <div class="box">
+            <div class="skill">
+              <div class="outer">
+                <div class="inner">
+                  <div id="number">90%</div>
                 </div>
-        
-                </div>
-        </div>
+              </div>
 
-        <div class="box-parent tilt">
-            <h5>CSS</h5>
-            <div class="box">
-                <div class="skill">
-                    <div class="outer">
-                        <div class="inner">
-                            <div id="numberTwo">
-                                80%
-                            </div>
-                        </div>
-                    </div>
-        
-               <div class="second">
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-                    <defs>
-                       <linearGradient id="GradientColor">
-                          <stop offset="0%" stop-color="#daa520" />
-                          <stop offset="100%" stop-color="#daa520" />
-                       </linearGradient>
-                    </defs>
-                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
-            </svg> 
-               </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="box-parent tilt">
-            <h5>JAVASCRIPT</h5>
-            <div class="box">
-                <div class="skill">
-                    <div class="outer">
-                        <div class="inner">
-                            <div id="numberThree">
-                                50%
-                            </div>
-                        </div>
-                    </div>
-        
-                   <div class="third">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-                        <defs>
-                           <linearGradient id="GradientColor">
-                              <stop offset="0%" stop-color="#daa520" />
-                              <stop offset="100%" stop-color="#daa520" />
-                           </linearGradient>
-                        </defs>
-                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+              <div class="first">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#daa520" />
+                      <stop offset="100%" stop-color="#daa520" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
                 </svg>
-                   </div> 
-                </div>
+              </div>
             </div>
+          </div>
         </div>
-      
-        
+
+        <div class="box-parent tilt">
+          <h5>CSS</h5>
+          <div class="box">
+            <div class="skill">
+              <div class="outer">
+                <div class="inner">
+                  <div id="numberTwo">80%</div>
+                </div>
+              </div>
+
+              <div class="second">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#daa520" />
+                      <stop offset="100%" stop-color="#daa520" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-parent tilt">
+          <h5>JAVASCRIPT</h5>
+          <div class="box">
+            <div class="skill">
+              <div class="outer">
+                <div class="inner">
+                  <div id="numberThree">50%</div>
+                </div>
+              </div>
+
+              <div class="third">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#daa520" />
+                      <stop offset="100%" stop-color="#daa520" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="box-container container_two">
-
         <div class="box-parent tilt">
-            <h5>BOOTSTARP</h5>
-            <div class="box">
-                <div class="skill">
-                    <div class="outer">
-                        <div class="inner">
-                            <div id="numberfour">
-                                80%
-                            </div>
-                        </div>
-                    </div>
-        
-                   <div class="fourth">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-                        <defs>
-                           <linearGradient id="GradientColor">
-                              <stop offset="0%" stop-color="#daa520" />
-                              <stop offset="100%" stop-color="#daa520" />
-                           </linearGradient>
-                        </defs>
-                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
-                </svg> 
-                   </div>
+          <h5>BOOTSTARP</h5>
+          <div class="box">
+            <div class="skill">
+              <div class="outer">
+                <div class="inner">
+                  <div id="numberfour">80%</div>
                 </div>
-        
-                </div>
-        </div>
+              </div>
 
-        <div class="box-parent tilt">
-            <h5>TAILWIND</h5>
-            <div class="box">
-                <div class="skill">
-                    <div class="outer">
-                        <div class="inner">
-                            <div id="numberfive">
-                                40%
-                            </div>
-                        </div>
-                    </div>
-        
-               <div class="fifth">
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-                    <defs>
-                       <linearGradient id="GradientColor">
-                          <stop offset="0%" stop-color="#daa520" />
-                          <stop offset="100%" stop-color="#daa520" />
-                       </linearGradient>
-                    </defs>
-                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
-            </svg> 
-               </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="box-parent tilt">
-            <h5>REACT</h5>
-            <div class="box">
-                <div class="skill">
-                    <div class="outer">
-                        <div class="inner">
-                            <div id="numbersix">
-                                10%
-                            </div>
-                        </div>
-                    </div>
-        
-                   <div class="sixth">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-                        <defs>
-                           <linearGradient id="GradientColor">
-                              <stop offset="0%" stop-color="#daa520" />
-                              <stop offset="100%" stop-color="#daa520" />
-                           </linearGradient>
-                        </defs>
-                        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+              <div class="fourth">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#daa520" />
+                      <stop offset="100%" stop-color="#daa520" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
                 </svg>
-                   </div> 
-                </div>
+              </div>
             </div>
+          </div>
         </div>
-      
-        
+
+        <div class="box-parent tilt">
+          <h5>TAILWIND</h5>
+          <div class="box">
+            <div class="skill">
+              <div class="outer">
+                <div class="inner">
+                  <div id="numberfive">40%</div>
+                </div>
+              </div>
+
+              <div class="fifth">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#daa520" />
+                      <stop offset="100%" stop-color="#daa520" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-parent tilt">
+          <h5>REACT</h5>
+          <div class="box">
+            <div class="skill">
+              <div class="outer">
+                <div class="inner">
+                  <div id="numbersix">10%</div>
+                </div>
+              </div>
+
+              <div class="sixth">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#daa520" />
+                      <stop offset="100%" stop-color="#daa520" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- blogs section ends -->
+    <!-- Skill Section End -->
 
-    <!-- contact section starts  -->
+    <!-- Testimonials Section Start -->
+
+    <div class="testimonial" id="testimonial">
+      <h1 class="heading">Testimonials</h1>
+
+      <div class="box_container swiper">
+        <div class="swiper-wrapper">
+          <div class="testimonial_card swiper-slide">
+            <img src="images/testimonial1.png" alt="" class="testi_image" />
+
+            <h3 class="testimonial_name">Jhon Doe</h3>
+            <p class="testimonial_description">
+              A really good job, all aspects of the project has been followed
+              step by step with good result.
+            </p>
+          </div>
+          <div class="testimonial_card swiper-slide">
+            <img src="images/testimonial2.png" alt="" class="testi_image" />
+
+            <h3 class="testimonial_name">Paula Vusy</h3>
+            <p class="testimonial_description">
+              A really good job, all aspects of the project has been followed
+              step by step with good result.
+            </p>
+          </div>
+          <div class="testimonial_card swiper-slide">
+            <img src="images/testimonial3.png" alt="" class="testi_image" />
+
+            <h3 class="testimonial_name">Sara Cill</h3>
+            <p class="testimonial_description">
+              A really good job, all aspects of the project has been followed
+              step by step with good result.
+            </p>
+          </div>
+
+          <div class="testimonial_card swiper-slide">
+            <img src="images/testimonial1.png" alt="" class="testi_image" />
+
+            <h3 class="testimonial_name">Jhon Andrew</h3>
+            <p class="testimonial_description">
+              A really good job, all aspects of the project has been followed
+              step by step with good result.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!-- Testimonials Section End -->
+
+    <!-- Contact Section Start  -->
 
     <section class="contact" id="contact">
-      <h1 class="heading">contact <span> me </span></h1>
+      <h1 class="heading">Get in Touch</h1>
 
       <div class="row">
         <div class="image">
@@ -485,8 +551,8 @@
             <input type="number" placeholder="Contact No" />
           </div>
 
-          <input type="email" placeholder="Your Email" class="box"/>
-          <input type="text" placeholder="Subject" class="box"/>
+          <input type="email" placeholder="Your Email" class="box" />
+          <input type="text" placeholder="Subject" class="box" />
 
           <textarea
             placeholder="Your Message"
@@ -496,18 +562,67 @@
             rows="10"
           ></textarea>
 
-          <input type="Submit" class="btn" value="Send Message" />
+          <input type="Submit" class="btn" value="Send" />
         </form>
       </div>
     </section>
 
-    <!-- contact section ends -->
+    <!-- Contact Section End  -->
 
-    <!-- footer section  -->
+    <!-- Footer Start -->
 
-    <div class="footer">
-      created by <span> mr. web designer </span> | all rights reserved!
-    </div>
+    <footer>
+      <div class="custom-shape-divider-top-1647527555">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="footer-content">
+        <img src="images/logo.png" alt="Logo" />
+
+        <div class="footer-nav">
+          <a href="#about">About</a>
+          <a href="#works">Works</a>
+          <a href="#skills">Skills</a>
+          <a href="#testimonial">Testimonials</a>
+        </div>
+
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/A.man.without.feelings"
+            target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://github.com/Dev-SalamSheikh" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/54l4m_5he1kh/" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://m.me/A.man.without.feelings" target="_blank"
+            ><i class="bx bxl-messenger"></i
+          ></a>
+          <a href="mailto:dev.salamsheikh@gmail.com" target="_blank"
+            ><i class="bx bxl-gmail"></i
+          ></a>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; Salam Sheikh. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer End -->
 
     <!-- typed.js link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
@@ -536,6 +651,8 @@
       });
     </script>
 
+    <!-- Swipper Js Link -->
+    <script src="js/swiper-bundle.min.js"></script>
 
     <!-- Mixitup Js Link -->
     <script src="js/mixitup.min.js"></script>

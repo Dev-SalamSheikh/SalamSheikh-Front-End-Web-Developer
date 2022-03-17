@@ -1,9 +1,16 @@
+// Hamburger Navigation Code
+
 const burger = document.querySelector(".hamburger");
-const menu = document.querySelector(".nav-menu")
+const menu = document.querySelector(".nav-menu");
+const bar = document.querySelectorAll(".bar")
 
 burger.addEventListener("click", () => {
     burger.classList.toggle("active")
     menu.classList.toggle("active")
+})
+
+burger.addEventListener("click", ()=> {
+    bar.style.color = "white";
 })
 
 document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
@@ -79,3 +86,26 @@ setInterval(() => {
         numberSix.innerHTML = counter + "%"
     }
 }, 19);
+
+
+// Swipper Navigation Code
+
+let swiperTestimonial = new Swiper(".box_container", {
+    spaceBetween: 30,
+    loop: true,
+    grabCursor: true,
+
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+        576: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 48,
+        },
+      },
+  });
