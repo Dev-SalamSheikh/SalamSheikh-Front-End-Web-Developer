@@ -130,3 +130,16 @@ sr.reveal('.skills', {delay: 400, origin: 'bottom'});
 sr.reveal('.testimonial', {delay: 400, origin: 'top'});
 sr.reveal('form', {delay: 400, origin: 'left'});
 sr.reveal('.footer-content', {delay: 400, origin: 'top'});
+
+
+// Home Scroll Button
+
+const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+    if(window.pageYOffset >= 100){
+        toTop.classList.add("active")
+    }else{
+        toTop.classList.remove("active")
+    }
+})
