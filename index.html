@@ -549,24 +549,25 @@
           <img class="tilt" src="images/contact-img.svg" alt="" />
         </div>
 
-        <form>
+        <form id="form">
           <div class="inputBox">
-            <input type="text" placeholder="Name" />
-            <input type="number" placeholder="Contact No" />
+            <input id="name" type="text" placeholder="Name" />
+            <input id="number" type="number" placeholder="Contact No" />
           </div>
 
-          <input type="email" placeholder="Your Email" class="box" />
-          <input type="text" placeholder="Subject" class="box" />
+          <input id="email" type="email" placeholder="Your Email" class="box" />
+          <input id="subject" type="text" placeholder="Subject" 
+          class="box" />
 
           <textarea
             placeholder="Your Message"
             name=""
-            id=""
+            id="message"
             cols="30"
             rows="10"
           ></textarea>
 
-          <input type="Submit" class="btn" value="Send" />
+          <input id="contactButton" type="Submit" class="btn" value="Send" />
         </form>
       </div>
     </section>

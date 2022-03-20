@@ -143,3 +143,19 @@ window.addEventListener("scroll", () => {
         toTop.classList.remove("active")
     }
 })
+
+
+// Contact Button Alert 
+
+const contactButton = document.getElementById("contactButton")
+
+contactButton.addEventListener("click", function(e){
+    alert("Please Contact Through the Footer's Social Media Link")
+})
+
+
+// Form Validation
+
+const form = document.getElementById('form').addEventListener('submit',(e) => {
+    e.preventDefault();
+})
