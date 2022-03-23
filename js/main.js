@@ -115,21 +115,20 @@ let swiperTestimonial = new Swiper(".box_container", {
 /*=============== SCROLL REVEL ANIMATION ===============*/ 
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '70px',
+    distance: '100px',
     duration: 1500,
     delay: 300,
     reset: true,
 })
-
 sr.reveal('.home')
-sr.reveal('.content', {delay: 400, origin: "left"});
-sr.reveal('.image', {delay: 400, origin: 'top'});
-sr.reveal('.works', {delay: 400, origin: 'bottom'});
-sr.reveal('.services', {delay: 400, origin: 'left'});
-sr.reveal('.skills', {delay: 400, origin: 'bottom'});
-sr.reveal('.testimonial', {delay: 400, origin: 'top'});
-sr.reveal('form', {delay: 400, origin: 'left'});
-sr.reveal('.footer-content', {delay: 400, origin: 'top'});
+sr.reveal('.content', {delay: 300, origin: "top"});
+sr.reveal('.image', {delay: 300, origin: 'top'});
+sr.reveal('.works', {delay: 300, origin: 'top'});
+sr.reveal('.services', {delay: 300, origin: 'top'});
+sr.reveal('.skills', {delay: 300, origin: 'top'});
+sr.reveal('.testimonial', {delay: 300, origin: 'top'});
+sr.reveal('form', {delay: 300, origin: 'top'});
+sr.reveal('.footer-content', {delay: 300, origin: 'top'});
 
 
 // Home Scroll Button
@@ -152,9 +151,6 @@ const contactButton = document.getElementById("contactButton")
 contactButton.addEventListener("click", function(e){
     alert("Please Contact Through the Footer's Social Media Link")
 })
-
-
-// Form Validation
 
 const form = document.getElementById('form').addEventListener('submit',(e) => {
     e.preventDefault();

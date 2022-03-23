@@ -741,6 +741,11 @@ footer {
     font-size: 18px;
     font-weight: bold;
     color: #333;
+    transition: all .4s ease-in-out;
+}
+
+.footer-content .footer-nav a:hover{
+    font-size: 20px;
 }
 
 .social-links,
